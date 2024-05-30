@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <header>
+  <header class="header">
     <div class="inner-wrapper d-flex">
       <figure class="logo">
         <img src="./assets/images/logo_AS.svg" alt="Logotipo de Alberto Sancho" width="200" height="auto">
@@ -39,16 +39,16 @@
   </header>
 
   <main>
-    <section>
-      <div class="main-section inner-wrapper d-flex">
+    <section class="main-section">
+      <div class="inner-wrapper d-flex">
         <figure class="main-section__image">
           <picture>
             <source srcset="./assets/images/main_lg.jpg" media="(min-width: 992px)">
             <img src="./assets/images/main_sm.jpg" alt="Caricatura de Alberto Sancho trabajando con un laptop" title="Alberto Sancho">
           </picture>
         </figure>
-        <div class="main-section__inner-wrapper">
-          <div class="main-section__text">
+        <div class="main-section__inner-wrapper d-flex">
+          <div class="main-section__text d-flex">
             <h1 class="sora-regular fs-xl">Hola, soy <span class="sora-extrabold">Alberto Sancho.</span><span class="sora-bold outlined"> Desarrollador web</span> y <span class="sora-semibold">diseñador gráfico</span></h1>
             <p class="fs-sm">Me apasiona el mundo de la programación de websites y también soy diseñador gráfico desde hace más de 25 años. Te invito a que me conozcas mejor en este sitio.</p>
             <p class="fs-sm">¡Bienvenid@ a mi web!</p>
@@ -64,7 +64,55 @@
         </div>
       </div>
     </section>
-    <section></section>
+
+    <section id="conocimientos" class="skills-section">
+      <div class="inner-wrapper d-flex">
+        <h2 class="sora-regular fs-md">Mis <span class="sora-extrabold">conocimientos</span></h2>
+        <div class="skills d-flex">
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/php.svg" alt="Logotipo de PHP" width="40" height="auto">
+            <p class="sora-bold">PHP</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/js.svg" alt="Logotipo de Javascript" width="40" height="auto">
+            <p class="sora-bold">Javascript</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/sass.svg" alt="Logotipo de Sass" width="40" height="auto">
+            <p class="sora-bold">Sass/Scss</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/mysql.svg" alt="Logotipo de MySql" width="40" height="auto">
+            <p class="sora-bold">MySql</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/git.svg" alt="Logotipo de Git" width="40" height="auto">
+            <p class="sora-bold">Git</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/drupal.svg" alt="Logotipo de Drupal" width="40" height="auto">
+            <p class="sora-bold">Drupal</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/wordpress.svg" alt="Logotipo de Wordpress" width="40" height="auto">
+            <p class="sora-bold">Wordpress</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/bootstrap.svg" alt="Logotipo de Bootstrap" width="40" height="auto">
+            <p class="sora-bold">Bootstrap</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/figma.svg" alt="Logotipo de Figma" width="40" height="auto">
+            <p class="sora-bold">Figma</p>
+          </div>
+          <div class="skill d-flex">
+            <img src="./assets/images/skills/google.svg" alt="Logotipo de Google" width="40" height="auto">
+            <p class="sora-bold">Google Apps</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section></section>
     <section></section>
     <section></section>
