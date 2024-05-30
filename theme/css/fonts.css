@@ -1,0 +1,85 @@
+/* font families */
+
+:root {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: -0.2;
+}
+
+.sora-regular {
+  font-weight: 400;
+}
+.sora-semibold {
+  font-weight: 600;
+}
+.sora-bold {
+  font-weight: 700;
+}
+.sora-extrabold {
+  font-weight: 800;
+}
+
+.outlined {
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+/* font size scales */
+/* For browsers that support clamp  */
+@supports (font-size: clamp(1rem, 1vi, 1rem)) {
+  :root {
+		--fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
+		--fs-base: clamp(1rem, 0.36vi + 0.92rem, 1.19rem);
+		--fs-md: clamp(1.25rem, 0.63vi + 1.11rem, 1.58rem);
+		--fs-lg: clamp(1.56rem, 1.04vi + 1.33rem, 2.11rem);
+		--fs-xl: clamp(1.95rem, 1.64vi + 1.58rem, 2.81rem);
+		--fs-xxl: clamp(2.44rem, 2.49vi + 1.88rem, 3.75rem);
+  }
+}
+/* For browsers that don't support clamp */
+@supports not (font-size: clamp(1rem, 1vi, 1rem)) {
+  :root {
+		--fs-sm: 0.8rem;
+		--fs-base: 1rem;
+		--fs-md: 1.25rem;
+		--fs-lg: 1.56rem;
+		--fs-xl: 1.95rem;
+		--fs-xxl: 2.44rem;
+  }
+  @media screen and (min-width: 1200px) {
+    :root {
+			--fs-sm: 0.89rem;
+			--fs-base: 1.19rem;
+			--fs-md: 1.58rem;
+			--fs-lg: 2.11rem;
+			--fs-xl: 2.81rem;
+			--fs-xxl: 3.75rem;
+    }
+  }
+}
+
+.fs-sm {
+  font-size: var(--fs-sm);
+}
+.fs-base {
+  font-size: var(--fs-base);
+}
+.fs-md {
+  font-size: var(--fs-md);
+}
+.fs-lg {
+  font-size: var(--fs-lg);
+}
+.fs-xl {
+  font-size: var(--fs-xl);
+}
+.fs-xxl {
+  font-size: var(--fs-xxl);
+}

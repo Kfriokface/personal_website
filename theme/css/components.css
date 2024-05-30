@@ -1,0 +1,39 @@
+/* colors */
+
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+.c-black {
+  color: var(--black);
+}
+.c-white {
+  color: var(--white);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-white {
+  background-color: var(--white);
+}
+
+.inner-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+.d-flex {
+  display: flex;
+}
+.d-none {
+  display: none;
+}
+.btn {
+  padding: .5em;
+  font-size: var(--fs-sm);
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+}

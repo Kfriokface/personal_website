@@ -1,0 +1,79 @@
+/* 
+ * Este archivo debe contener los estilos propios
+ * para visualizar correctamente el theme.
+ * ATENCIÓN: La declaración de reglas debe cumplir la directriz MOBILE FIRST.
+ */
+
+
+header > .inner-wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu--desktop {
+  flex: 1 2 auto;
+}
+
+/* Sección principal */
+.main-section {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-section__image {
+  max-width: 70%;
+}
+.main-section__text {
+  padding: 1em 0;
+}
+.main-section__text > h1 {
+  margin-bottom: 1rem;
+}
+.main-section__social > ul {
+  list-style: none;
+  max-width: 200px;
+  justify-content: space-between;
+}
+.main-section__social > ul > li {
+  margin-top: 1em;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+  .main-menu {
+    display: none;
+  }
+  .main-menu--desktop,
+  .btn-cv {
+    display: block;
+  }
+  .main-menu--desktop > ul {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-section {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .main-section__image {
+    max-width: initial;
+    flex: 0 1 50%;
+    order: 1;
+  }
+  .main-section__inner-wrapper {
+    flex: 0 1 50%;
+  }
+}
