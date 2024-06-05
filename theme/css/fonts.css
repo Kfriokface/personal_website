@@ -4,9 +4,12 @@
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  letter-spacing: -0.2;
+  letter-spacing: -0.2px;
 }
 
+.sora-light {
+  font-weight: 300;
+}
 .sora-regular {
   font-weight: 400;
 }
@@ -28,6 +31,15 @@
     1px -1px 0 #000,
    -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+.outlined-reverse {
+  color: #000;
+  text-shadow:
+    3px 3px 0 #fff,
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 
 

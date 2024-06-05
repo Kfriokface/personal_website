@@ -8,7 +8,8 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400,600,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300..800&display=swap" rel="stylesheet">
+
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/cfc6f3bbbd.js" crossorigin="anonymous"></script>
   <!-- CSS -->
@@ -18,7 +19,7 @@
 </head>
 <body>
 
-  <header class="header">
+  <header class="header bg-white">
     <div class="inner-wrapper d-flex">
       <figure class="logo">
         <img src="./assets/images/logo_AS.svg" alt="Logotipo de Alberto Sancho" width="200" height="auto">
@@ -55,10 +56,10 @@
           </div>
           <div class="main-section__social">
             <ul class="d-flex">
-              <li class="d-flex bg-black c-white"><i class="fa-brands fa-facebook fa-lg" aria-label="Facebook"></i></li>
-              <li class="d-flex"><i class="fa-brands fa-twitter fa-lg" aria-label="Twitter"></i></li>
-              <li class="d-flex"><i class="fa-brands fa-linkedin fa-lg" aria-label="Linkedin"></i></li>
-              <li class="d-flex"><i class="fa-brands fa-instagram fa-lg" aria-label="Instagram"></i></li>
+              <li class="d-flex border-solid bg-black c-white"><i class="fa-brands fa-facebook fa-lg" aria-label="Facebook"></i></li>
+              <li class="d-flex border-solid"><i class="fa-brands fa-twitter fa-lg" aria-label="Twitter"></i></li>
+              <li class="d-flex border-solid"><i class="fa-brands fa-linkedin fa-lg" aria-label="Linkedin"></i></li>
+              <li class="d-flex border-solid"><i class="fa-brands fa-instagram fa-lg" aria-label="Instagram"></i></li>
             </ul>
           </div>
         </div>
@@ -69,55 +70,122 @@
       <div class="inner-wrapper d-flex">
         <h2 class="sora-regular fs-md">Mis <span class="sora-extrabold">conocimientos</span></h2>
         <div class="skills d-flex">
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/php.svg" alt="Logotipo de PHP" width="40" height="auto">
             <p class="sora-bold">PHP</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/js.svg" alt="Logotipo de Javascript" width="40" height="auto">
             <p class="sora-bold">Javascript</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/sass.svg" alt="Logotipo de Sass" width="40" height="auto">
             <p class="sora-bold">Sass/Scss</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/mysql.svg" alt="Logotipo de MySql" width="40" height="auto">
             <p class="sora-bold">MySql</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/git.svg" alt="Logotipo de Git" width="40" height="auto">
             <p class="sora-bold">Git</p>
           </div>
-          <div class="skill d-flex">
-            <img src="./assets/images/skills/drupal.svg" alt="Logotipo de Drupal" width="40" height="auto">
+          <div class="skill d-flex border-solid bg-black c-white">
+            <img src="./assets/images/skills/drupal.svg" alt="Logotipo de Drupal" width="40" height="auto" class="fill-white">
             <p class="sora-bold">Drupal</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/wordpress.svg" alt="Logotipo de Wordpress" width="40" height="auto">
             <p class="sora-bold">Wordpress</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/bootstrap.svg" alt="Logotipo de Bootstrap" width="40" height="auto">
             <p class="sora-bold">Bootstrap</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/figma.svg" alt="Logotipo de Figma" width="40" height="auto">
             <p class="sora-bold">Figma</p>
           </div>
-          <div class="skill d-flex">
+          <div class="skill d-flex border-solid">
             <img src="./assets/images/skills/google.svg" alt="Logotipo de Google" width="40" height="auto">
-            <p class="sora-bold">Google Apps</p>
+            <p class="sora-bold">GoogleApps</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section></section>
-    <section></section>
-    <section></section>
+    <section id="sobre-mi" class="about bg-black">
+      <div class="inner-wrapper d-flex">
+        <figure class="about__figure">
+          <img src="./assets/images/alberto_sancho.jpg" alt="Retrato de Alberto Sancho" width="600" height="600"> 
+        </figure>
+        <div class="about__inner-wrapper c-white sora-light fs-sm d-flex">
+          <h2 class="sora-regular fs-md">Sobre <span class="sora-extrabold">mi</span></h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nisi, suscipit dignissimos modi sed distinctio mollitia assumenda aperiam optio laudantium necessitatibus nihil nesciunt itaque, ipsum, nulla repellendus! Rerum, quis. Vitae.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium aspernatur doloremque nam quaerat! Vel suscipit mollitia ut ratione labore, at neque quisquam. Pariatur optio labore, sit fugiat culpa dolore?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam harum eveniet nemo quos veritatis rem iste, veniam vitae cumque, ut delectus, rerum aliquid expedita aut placeat nulla! Corrupti, mollitia voluptas?</p>
+        </div>
+
+      </div>
+      
+    </section>
+    <section id="trabajos" class="works">
+      <div class="inner-wrapper d-flex">
+        <h2 class="sora-regular fs-md">Algunos de mis <span class="sora-extrabold">trabajos</span></h2>
+        <div class="gallery d-flex">
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/2(1).jpg" alt="Cartel Bobby McFerrin"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/arte(1).jpg" alt="Campaña prensa grifería Arte Presto"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/calendario.jpg" alt="Calendario Banco Popular"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/carolea-2.jpg" alt="Packaging Carolea"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/cp-2011.jpg" alt="Catálogo grifos Presto"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/3(1).jpg" alt="Campaña Prensa Antonio de Miguel"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/gal_plata.jpg" alt="Catálogo perfumerias Gal"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/guilis(1).jpg" alt="Packaging cafés Guilis"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/lamariquita(1).jpg" alt="Tríptico La Mariquita"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/lamariquita_2.jpg" alt="Catálogo La Mariquita"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/latorralba_gourmet.jpg" alt="Packaging La Torralba"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/monoraciones.jpg" alt="Packaging monoraciones La Torralba"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/patatas.jpg" alt="Bolsa Patatas Santa María"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/adm_2.jpg" alt="Campaña Prensa Antonio de Miguel"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/roncero2.jpg" alt="Campofrío, Paco Roncero"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/sergi.jpg" alt="Envases, Sergi Arola"></figure>
+          <figure class="gallery__item" ><img src="./assets/images/portfolio/torrelaguna.jpg" alt="Catálogo Ayuntamiento Torrelaguna"></figure>
+        </div>
+      </div>
+    </section>
   </main>
-  
+  <footer class="bg-black c-white">
+    <section id="contacto" class="contact">
+      <div class="inner-wrapper d-flex">
+        <form action="/contacto.html" method="post" class="d-flex">
+          <input type="text" name="nombre" placeholder="Nombre completo">
+          <input type="email" pattern=".+@example\.com" name="correo" placeholder="Correo electrónico">
+          <input type="text" name="asunto" placeholder="Asunto del mensaje">
+          <textarea rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
+          <input type="submit" value="Enviar" class="btn">
+        </form>
+        <div class="contact__text d-flex">
+          <h3 class="sora-regular fs-xl">¿Quieres <span class="sora-extrabold">trabajar</span> conmigo?, <span class="sora-bold outlined-reverse">¡hablemos!</span>.</h3>
+          <p class="fs-sm sora-light">Si te gusta mi trabajo y quieres contactar conmigo para realizar un proyecto, por favor rellena este formulario y cuéntame, de modo escueto, qué necesitas. Me pondré en contacto contigo lo antes posible. Gracias.</p>
+          <p class="fs-sm sora-bold">design@albertosancho.es</p>
+          <p class="fs-sm sora-bold">+34 000 000 000</p>
+        </div>
+      </div>
+    </section>
+    <div class="footer inner-wrapper d-flex">
+      <figure class="footer__logo">
+        <img src="./assets/images/logo_AS.svg" alt="Logotipo de Alberto Sancho" width="200" height="auto">
+      </figure>
+      <div class="footer__social">
+        <ul class="d-flex">
+          <li><i class="fa-brands fa-facebook fa-lg" aria-label="Facebook"></i></li>
+          <li><i class="fa-brands fa-twitter fa-lg" aria-label="Twitter"></i></li>
+          <li><i class="fa-brands fa-linkedin fa-lg" aria-label="Linkedin"></i></li>
+          <li><i class="fa-brands fa-instagram fa-lg" aria-label="Instagram"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
   
 </body>
 </html>
