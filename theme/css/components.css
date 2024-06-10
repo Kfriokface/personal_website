@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* colors */
 
 :root {
@@ -20,9 +27,12 @@
   background-color: var(--white);
 }
 .fill-white {
-  filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(301deg) brightness(111%) contrast(100%);
+  -webkit-filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(301deg) brightness(111%) contrast(100%);
+          filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(301deg) brightness(111%) contrast(100%);
 }
 .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .d-none {
